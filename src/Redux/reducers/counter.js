@@ -6,17 +6,17 @@
 
 // Read more on Reducers - https://redux.js.org/docs/basics/Reducers.html
 
-import { INCREMENT_NUM, DECREMENT_NUM, RESET } from "../constants/ActionTypes";
+import { DECREMENT_NUM, INCREMENT_NUM, RESET } from "../constants/actionTypes";
 
 export default function reducer(state = 0, action) {
-  switch (action.type) {
-  case INCREMENT_NUM: 
-    return state + 1;
-  case DECREMENT_NUM:
-    return state - 1;
-  case RESET:
-    return state = action.payload;
-  }
+	switch (action.type) {
+		case INCREMENT_NUM:
+			return state + 1;
+		case DECREMENT_NUM:
+			return state - 1;
+		case RESET:
+			return state = action.payload;
+	}
 
-  return state;
+	return state;
 }

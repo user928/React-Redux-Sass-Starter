@@ -19,16 +19,12 @@
   ],
   "rules": {
       "react/jsx-indent": [
-        "error",
-        2
+        2,
+        "tab"
       ],
       "linebreak-style": [
           "error",
           "unix"
-      ],
-      "quotes": [
-          "error",
-          "double"
       ],
       "semi": [
           "warn",

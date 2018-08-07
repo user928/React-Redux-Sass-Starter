@@ -1,0 +1,194 @@
+// Helpers for padding
+// NOTE: never use two helpers that can cancel each other
+//----------------------------------------------------------------------------------------------------------------------
+//
+
+.h-paddingT--xxs {
+	padding-top: 5px;
+}
+
+.h-paddingR--xxs {
+	padding-right: 5px;
+}
+
+.h-paddingB--xxs {
+	padding-bottom: 5px;
+}
+
+.h-paddingL--xxs {
+	padding-left: 5px;
+}
+
+.h-paddingTB--xxs {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.h-paddingLR--xxs {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.h-paddingALL--xxs {
+	padding: 5px;
+}
+
+// xs
+
+.h-paddingT--xs {
+	padding-top: 10px;
+}
+
+.h-paddingR--xs {
+	padding-right: 10px;
+}
+
+.h-paddingB--xs {
+	padding-bottom: 10px;
+}
+
+.h-paddingL--xs {
+	padding-left: 10px;
+}
+
+.h-paddingTB--xs {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.h-paddingLR--xs {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.h-paddingALL--xs {
+	padding: 10px;
+}
+
+// sm
+
+.h-paddingT--sm {
+	padding-top: 15px;
+}
+
+.h-paddingR--sm {
+	padding-right: 15px;
+}
+
+.h-paddingB--sm {
+	padding-bottom: 15px;
+}
+
+.h-paddingL--sm {
+	padding-left: 15px;
+}
+
+.h-paddingTB--sm {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.h-paddingLR--sm {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.h-paddingALL--sm {
+	padding: 15px;
+}
+
+// md
+
+.h-paddingT--md {
+	padding-top: 20px;
+}
+
+.h-paddingR--md {
+	padding-right: 20px;
+}
+
+.h-paddingB--md {
+	padding-bottom: 20px;
+}
+
+.h-paddingL--md {
+	padding-left: 20px;
+}
+
+.h-paddingTB--md {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.h-paddingLR--md {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.h-paddingALL--md {
+	padding: 20px;
+}
+
+// lg
+
+.h-paddingT--lg {
+	padding-top: 25px;
+}
+
+.h-paddingR--lg {
+	padding-right: 25px;
+}
+
+.h-paddingB--lg {
+	padding-bottom: 25px;
+}
+
+.h-paddingL--lg {
+	padding-left: 25px;
+}
+
+.h-paddingTB--lg {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.h-paddingLR--lg {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.h-paddingALL--lg {
+	padding: 25px;
+}
+
+// xxl
+
+.h-paddingT--xxl {
+	padding-top: 30px;
+}
+
+.h-paddingR--xxl {
+	padding-right: 30px;
+}
+
+.h-paddingB--xxl {
+	padding-bottom: 30px;
+}
+
+.h-paddingL--xxl {
+	padding-left: 30px;
+}
+
+.h-paddingTB--xxl {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.h-paddingLR--xxl {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.h-noPadding {
+	padding: 0;
+}

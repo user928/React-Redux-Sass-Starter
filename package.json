@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-sass-starterkit",
-  "version": "1.2.0",
-  "description": "Everything you need to get started with a basic React application",
+  "name": "Demo-App",
+  "version": "1.0.0",
+  "description": "Basic React application",
   "watch": true,
   "dependencies": {
     "express": "^4.16.3",
@@ -34,12 +34,12 @@
     "webpack-dev-server": "^2.11.2"
   },
   "scripts": {
-    "start:dev": "webpack-dev-server",
+    "start": "webpack-dev-server",
     "build": "webpack",
     "watch": "webpack --watch",
     "lint": "./node_modules/.bin/eslint ./src"
   },
   "precommit": "lint",
-  "author": "Santhosh Sundar",
+  "author": "Jovan M",
   "license": "MIT"
 }
