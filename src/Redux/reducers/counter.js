@@ -6,7 +6,7 @@
 
 // Read more on Reducers - https://redux.js.org/docs/basics/Reducers.html
 
-import { DECREMENT_NUM, INCREMENT_NUM, RESET } from "../constants/ActionTypes";
+import { DECREMENT_NUM, INCREMENT_NUM, RESET } from "../constants/actionTypes";
 
 export default function reducer(state = 0, action) {
 	switch (action.type) {

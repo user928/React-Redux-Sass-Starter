@@ -19,7 +19,8 @@
   ],
   "rules": {
       "react/jsx-indent": [
-        2, "tab"
+        2,
+        "tab"
       ],
       "linebreak-style": [
           "error",

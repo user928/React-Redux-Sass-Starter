@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Controls from '../components/Controls';
 import { connect } from 'react-redux';
 
-import { decrementNum, incrementNum, resetCounter } from '../actions/counterActions';
+import { decrementNum, incrementNum, resetCounter } from '../Redux/actionCreators/counterActions';
 
 export class Controller extends Component {
 	render() {

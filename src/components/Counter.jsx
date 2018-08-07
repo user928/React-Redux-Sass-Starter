@@ -10,11 +10,11 @@ class Counter extends Component {
 		return (
 			<div className="counter">
 				<div>{count}</div>
-				<Controls />
-				<hr />
+				<Controls/>
+				<hr/>
 
 				<span>
-					<SVGIcon icon="wrench" wrapperClassName="AppLanding__icon" size={80} />
+					<SVGIcon icon="wrench" wrapperClassName="AppLanding__icon" size={80}/>
 					<a href="https://github.com/Gigacore/React-Redux-Starter">Fork it on Github</a>
 				</span>
 			</div>

@@ -7,7 +7,10 @@ const SVGIcon = props => {
 		return 'Missing icon';
 	}
 
-	const { icon, handleClick = () => {}, wrapperClassName, dataAutomation, ...rest } = props;
+	const {
+		icon, handleClick = () => {
+		}, wrapperClassName, dataAutomation, ...rest
+	} = props;
 	const Icon = icons[icon];
 	const classNames = ['SvgIconWrapper', wrapperClassName].join(' ');
 

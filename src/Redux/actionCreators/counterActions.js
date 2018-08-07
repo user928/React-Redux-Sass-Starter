@@ -5,7 +5,7 @@
 
 // Read more on Actions - https://redux.js.org/docs/basics/Actions.html
 
-import { DECREMENT_NUM, INCREMENT_NUM, RESET } from "../constants/ActionTypes";
+import { DECREMENT_NUM, INCREMENT_NUM, RESET } from "../constants/actionTypes";
 
 export function incrementNum(payload) {
 	return {
