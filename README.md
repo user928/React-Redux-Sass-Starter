@@ -61,11 +61,11 @@ npm run build
    ├─ actions/                # Create actions here.
    |  ├─ counterActions.js
    ├─ components/             # Create components here
-   |  ├─ Controls.js
-   |  ├─ Counter.js
+   |  ├─ Controls.jsx
+   |  ├─ Counter.jsx
    |─ containers/             # Containers bridge Components with the State.
-   |  ├─ Controls.js
-   |  ├─ Counter.js
+   |  ├─ Controls.jsx
+   |  ├─ Counter.jsx
    ├─ constants/              # Define action types here.
    |  ├─ ActionTypes.js
    ├─ reducers/               # Create reducers here.
@@ -73,7 +73,7 @@ npm run build
    |  ├─ index.js             # Combine your reducers here.
    ├─ styles/                 # All styling goes here.
    |  ├─ main.scss
-   ├─ App.js                  # Include your main component(s).
+   ├─ App.jsx                  # Include your main component(s).
    ├─ index.js                # Passes state to App. Renders markup to DOM.
    └─ store.js                # Creates and exports store.
 ```
